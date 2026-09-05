@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
  
 app.get("/", (req, res) => {
     res.json({
-        mensaje: "Hola desde Node.js desplegado en Render. Soy Jeison Presinal Veloz y el despliegue esta listo",
+        mensaje: "Hola desde Node.js desplegado en Render. Mi nombre es Jeison Presinal Veloz y el despliegue esta listo",
         ambiente: process.env.NODE_ENV || "development"
     });
 });
